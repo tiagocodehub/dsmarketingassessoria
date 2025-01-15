@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(to bottom, #000, #1c1c1c);
+    color: #f1c40f;
+    font-family: 'Arial', sans-serif;
+}
+.hero {
+    background: url('img/background.webp') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+.hero2 {
+    background: url('img/background.webp') no-repeat center center/cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.hero h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+.btn-primary {
+    background-color: #f1c40f;
+    border: none;
+    color: #000;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    background-color: #d4ac0d;
+}
+.section {
+    padding: 60px 20px;
+}
+.icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #f1c40f;
+}
+.testimonial {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    color: #f1c40f;
+}
