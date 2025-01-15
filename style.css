@@ -21,6 +21,7 @@ body {
     align-items: center;
     text-align: center;
     color: #fff;
+    padding: 50px;
 }
 .hero h1 {
     font-size: 3.5rem;
@@ -65,7 +66,10 @@ footer {
   /* Para telas pequenas (celulares) */
   @media (min-width: 360px) {
     .carousel {
-      max-width: 90%;
+      max-width: 100%;
+    }
+    .hero h1 {
+      font-size: 2rem;
     }
   }
   /* Para telas médias (tablets) */
