@@ -50,9 +50,45 @@ body {
     color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+}
 footer {
     background-color: #000;
     padding: 20px;
     text-align: center;
     color: #f1c40f;
 }
+
+  /* Para telas pequenas (celulares) */
+  @media (min-width: 360px) {
+    .carousel {
+      max-width: 90%;
+    }
+  }
+  /* Para telas médias (tablets) */
+  @media (min-width: 768px) {
+    .carousel {
+      max-width: 70%;
+      margin: 0 auto; /* Centraliza o carrossel */
+    }
+  }
+
+  /* Para telas grandes (desktops) */
+  @media (min-width: 992px) {
+    .carousel {
+      max-width: 50%;
+      margin: 0 auto; /* Centraliza o carrossel */
+    }
+  }
+
+  /* Para telas extra grandes (monitores maiores) */
+  @media (min-width: 1200px) {
+    .carousel {
+      max-width: 50%;
+      margin: 0 auto; /* Centraliza o carrossel */
+    }
+  }
+  
