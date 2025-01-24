@@ -1,105 +1,120 @@
 body {
-    background: linear-gradient(to bottom, #000, #1c1c1c);
-    color: #f1c40f;
-    font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #000, #1c1c1c);
+  color: #f1c40f;
+  font-family: 'Arial', sans-serif;
 }
+
 .hero {
-    background: url('img/background.webp') no-repeat center center/cover;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    padding: 50px;
+  background: url('img/background.webp') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 50px;
 }
+
 .hero img {
-  max-width: 150px; /* Ajusta o tamanho da logo */
-  height: auto; /* Mantém a proporção */
+  max-width: 150px;
+  /* Ajusta o tamanho da logo */
+  height: auto;
+  /* Mantém a proporção */
 }
 
 .hero2 {
-    background: url('img/background.webp') no-repeat center center/cover;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    padding: 50px;
+  background: url('img/background.webp') no-repeat center center/cover;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 50px;
 }
 
 
 .hero h1 {
-    font-size: 3.5rem;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
 }
+
 .btn-primary {
-    background-color: #f1c40f;
-    border: none;
-    color: #000;
-    font-weight: bold;
+  background-color: #f1c40f;
+  border: none;
+  color: #000;
+  font-weight: bold;
 }
+
 .btn-primary:hover {
-    background-color: #d4ac0d;
+  background-color: #d4ac0d;
 }
+
 .section {
-    padding: 60px 20px;
+  padding: 60px 20px;
 }
+
 .icon {
-    font-size: 3rem;
-    margin-bottom: 15px;
-    color: #f1c40f;
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: #f1c40f;
 }
+
 .testimonial {
-    background-color: #1c1c1c;
-    border-radius: 10px;
-    padding: 20px;
-    color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
+
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 5px;
 }
+
 footer {
-    background-color: #000;
-    padding: 20px;
-    text-align: center;
-    color: #f1c40f;
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  color: #f1c40f;
 }
 
-  /* Para telas pequenas (celulares) */
-  @media (min-width: 360px) {
-    .carousel {
-      max-width: 100%;
-    }
-    .hero h1 {
-      font-size: 2rem;
-    }
-  }
-  /* Para telas médias (tablets) */
-  @media (min-width: 768px) {
-    .carousel {
-      max-width: 70%;
-      margin: 0 auto; /* Centraliza o carrossel */
-    }
+/* Para telas pequenas (celulares) */
+@media (min-width: 360px) {
+  .carousel {
+    max-width: 100%;
   }
 
-  /* Para telas grandes (desktops) */
-  @media (min-width: 992px) {
-    .carousel {
-      max-width: 50%;
-      margin: 0 auto; /* Centraliza o carrossel */
-    }
+  .hero h1 {
+    font-size: 2rem;
   }
+}
 
-  /* Para telas extra grandes (monitores maiores) */
-  @media (min-width: 1200px) {
-    .carousel {
-      max-width: 50%;
-      margin: 0 auto; /* Centraliza o carrossel */
-    }
+/* Para telas médias (tablets) */
+@media (min-width: 768px) {
+  .carousel {
+    max-width: 70%;
+    margin: 0 auto;
+    /* Centraliza o carrossel */
   }
-  
+}
+
+/* Para telas grandes (desktops) */
+@media (min-width: 992px) {
+  .carousel {
+    max-width: 50%;
+    margin: 0 auto;
+    /* Centraliza o carrossel */
+  }
+}
+
+/* Para telas extra grandes (monitores maiores) */
+@media (min-width: 1200px) {
+  .carousel {
+    max-width: 50%;
+    margin: 0 auto;
+    /* Centraliza o carrossel */
+  }
+}
